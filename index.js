@@ -171,3 +171,31 @@ function sortBrands(brandName) {
 
 // const result = makeObject(array)
 // console.log(result);
+
+
+
+// FilterRating -------------->
+
+// let ratingsort = document.querySelector("#reyting-wrapper");
+
+// function sortincres(produkt){
+//     return produkt.sort(function(a, b) {
+//       return a.rating - b.rating;
+//     });
+//   }
+  
+//   function sortdicres(produkt){
+//     return produkt.sort(function(a, b) {
+//       return b.rating - a.rating;
+//     });
+//   }
+  
+//   ratingsort.addEventListener('change', ()=>{
+//       if(ratingsort.value.toLowerCase() == 'toup'){
+//         let arr = sortincres(product.products);
+//         renderProducts(arr);
+//       }else{
+//         let arr = sortdicres(product.products);
+//         renderProducts(arr);
+//       }
+//   })
